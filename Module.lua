@@ -1653,15 +1653,5 @@ function Samild.Load(Config)
 	return TabLibrary
 end
 
-function onKeyPress(inputObject, gameProcessedEvent)
-	    if inputObject.KeyCode == Enum.KeyCode.Insert then
-		    if MainFrame.Visible == true then
-			    MainFrame.Visible =  false
-		    elseif MainFrame.Visible == false then
-			    MainFrame.Visible = true
-	            wait()
-		    end
-	    end
-end
 
 return Samild
