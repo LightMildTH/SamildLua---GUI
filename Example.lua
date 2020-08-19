@@ -1,4 +1,4 @@
-local Samild = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+local Samild = loadstring(game:HttpGet("https://raw.githubusercontent.com/LightMildTH/SamildLua-GUI/master/Module.lua"))()
 
 local X = Samild.Load({
 	Title = "ChibuHub",
